@@ -1,0 +1,14 @@
+// Directory Structure:
+// Orchard Frontend Test/
+// ├── dist/          (Output folder for the final website)
+// ├── node_modules/  (Dependencies folder)
+// ├── src/           (Source code)
+// │   ├── index.js   (Main JS entry point)
+// │   ├── index.html (Main HTML file)
+// │   └── styles/    (Tailwind SCSS)
+// ├── package.json   (Project config and dependencies)
+// └── webpack.config.js (Webpack configuration)
+
+// 1. Run `npm i` to install packages
+// 2. Run `npm run build` to generate buid files in dist folder
+// 3. Run `npm start` to start the development server

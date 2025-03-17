@@ -1,0 +1,29 @@
+
+@use "tailwind";
+
+//load custom fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+//override taiwind varriable
+@theme {
+  --font-sans: "Open Sans", sans-serif; 
+}
+
+// We can add custom styles here,
+//we can also create separate scss files then import here
+
+#imageModal {
+  .modal-content {
+      max-width: 80%;
+      max-height: 80%;
+  }
+
+  .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+  }
+}
