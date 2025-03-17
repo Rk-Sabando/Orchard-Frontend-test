@@ -7,7 +7,7 @@ module.exports = {
 
   //Output name and location
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js',
     clean: true // This ensures old files are removed during build
   },
@@ -51,7 +51,7 @@ module.exports = {
   
   // Local development server configuration
   devServer: {
-    static: './dist', //Serve files from the dist folder.
+    static: './docs', //Serve files from the dist folder.
     open: true, //Automatically opens your default browser when the server starts.
     port: 3000, //port to use
   },
